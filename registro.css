@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #4CB8C4; /* Fondo azul */
+}
+
+.container {
+    text-align: center;
+    background: linear-gradient(white, #4CB8C4); /* Degradado de blanco a azul */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.registration-container {
+    width: 400px;
+}
+
+h2 {
+    color: white;
+}
+
+/* Estilos para los campos de entrada (inputs) */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #007BFF; /* Línea azul en la parte inferior */
+    background-color: transparent; /* Fondo transparente */
+    color: #007BFF; /* Color azul para el texto */
+    transition: border-color 0.3s; /* Transición al cambiar el color de la línea */
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus {
+    border-color: #0056b3; /* Cambio de color de la línea al enfocar */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
