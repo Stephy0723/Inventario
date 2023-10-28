@@ -1,66 +1,61 @@
 body {
-    margin: 0;
-    padding: 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 100vh;
-    background-color: #4CB8C4; /* Fondo azul */
+    margin: 0;
+    background-color: #e6f7ff; 
 }
-
-.container {
+.registration-container {
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    background: linear-gradient(white, #4CB8C4); /* Degradado de blanco a azul */
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+.registration-box {
+    max-width: 400px;
+    margin: 0 auto;
     padding: 20px;
 }
-
 .logo {
-    margin-bottom: 20px;
+    width: 90px;
+    height: 90px;
+    border-radius: 40%;
+    margin: 0 auto 2px;
 }
-
-.registration-container {
-    width: 400px;
-}
-
 h2 {
-    color: white;
+    color: #333;
 }
 
-/* Estilos para los campos de entrada (inputs) */
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="tel"] {
+form {
+    text-align: left;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+input {
     width: 100%;
     padding: 10px;
-    border: none;
-    border-bottom: 2px solid #007BFF; /* Línea azul en la parte inferior */
-    background-color: transparent; /* Fondo transparente */
-    color: #007BFF; /* Color azul para el texto */
-    transition: border-color 0.3s; /* Transición al cambiar el color de la línea */
-    outline: none;
-}
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus,
-input[type="tel"]:focus {
-    border-color: #0056b3; /* Cambio de color de la línea al enfocar */
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 button {
-    width: 100%;
-    padding: 10px;
-    background-color: #007BFF;
+    background-color: #007BFF; 
+    color: white;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    color: white;
     cursor: pointer;
+    margin-top: 10px;
 }
-
 button:hover {
     background-color: #0056b3;
 }

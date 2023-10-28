@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="registro.css">
     <title>Registro de Usuario</title>
 </head>
 <body>
     <div class="registration-container">
+        <div class="registration-box">
+            <img src="imagenes\logo.jpg" alt="Logo" class="logo">
         <h2>Registro de Usuario</h2>
         <form action="procesar_registro.php" method="post">
             <div class="form-group">
@@ -42,8 +44,9 @@
                 <label for="confirmar_contrasena">Confirmar Contraseña:</label>
                 <input type="password" id="confirmar_contrasena" name="confirmar_contrasena" required>
             </div>
-            <button type="submit">Registrarse</button>
+            <a href="login.html"><button type="submit" >Registrarse</button></a>
         </form>
+    </div>
     </div>
 </body>
 </html>
