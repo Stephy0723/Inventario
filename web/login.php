@@ -11,7 +11,7 @@
         <div class="login-box">
             <img src="../imagenes\logo.jpg" alt="Logo" class="logo">
             <h2>Iniciar sesión</h2>
-            <form action="index.php" method="post">
+            <form action="login.php" method="post">
                 <div class="form-group">
                     <label for="username">Usuario:</label>
                     <input type="text" id="username" name="username" required>
@@ -21,7 +21,7 @@
                     <input type="password" id="password" name="password" required>
                 </div>
                 <button type="submit">Iniciar sesión</button>
-                <a href="forgot-password.html" class="forgot-password">¿Olvidaste tu contraseña?</a>
+                <a href="forgot-password.php" class="forgot-password">¿Olvidaste tu contraseña?</a>
             </form>
         </div>
     </div>

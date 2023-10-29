@@ -3,7 +3,7 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../restablecer-contraseña.css">
+    <link rel="stylesheet" type="text/css" href="../stylos/restablecer-contraseña.css">
         <title>Restablecer Contraseña</title>
     </head>
     <body>
@@ -12,7 +12,7 @@
                     <img src="../imagenes\logo.jpg" alt="Logo" class="logo">
             <h1>Restablecer Contraseña</h1>
             <p>Introduzca su nueva contraseña a continuación:</p>
-            <form action="procesar-restablecer-contrasena.php" method="post">
+            <form action="./login.php" method="post">
                 <div class="form-group">
                     <label for="new-password">Nueva Contraseña:</label>
                     <input type="password" id="new-password" name="new-password" required>

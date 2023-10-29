@@ -48,7 +48,7 @@
                     <label for="confirmar_contrasena">Confirmar Contraseña:</label>
                     <input type="password" id="confirmar_contrasena" name="confirmar_contrasena" required>
                 </div>
-                <a href="web\login.php" class="button"  type="submit">Registrarse</a>
+                <button class="button" type="submit">Registrarse </button>
             </form>
         </div>
     </div>
