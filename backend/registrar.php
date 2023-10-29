@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // echo $nombre, 'Hola';
         $hashed_password = password_hash($contrasena, PASSWORD_DEFAULT);
         $sql = "INSERT INTO usuario  (id,nombre, apellido, cedula, correo, usuario, contrasena,confirmar_contrasena	) 
-            VALUES (1,'$nombre', '$apellido', '$cedula', '$email', '$usuario', '$hashed_password','$hashed_password')";
+            VALUES (1,'$nombre', '$apellido', '$cedula', '$email', '$usuario', '$contrasena','$confirmar_contrasena')";
         if ($conn->query($sql) === TRUE) {
             echo "Registro exitoso. ¡Bienvenido, $nombre!";
         } else {
